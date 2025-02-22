@@ -138,8 +138,8 @@ def main(interface, oui_data):
     time.sleep(0.2)
     print(f"{BOLD}{GREEN}[+]{RESET} Interface: {YELLOW}{interface}{RESET}")
     time.sleep(0.2)
-    print(f"{BOLD}{GREEN}[+]{RESET} Sniffing nearby probes...\n")
-    time.sleep(0.5)
+    print(f"{BOLD}{GREEN}[+]{RESET} Sniffing nearby probes...")
+    print(f"{YELLOW}{BOLD}---------------------------------------------------{RESET}\n")
     try:
         sniff(
             iface=interface,
