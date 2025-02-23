@@ -26,9 +26,17 @@ Es decir, que si alguien crea un punto de acceso (wifi) llamado `aeropuerto_wifi
 El script "escucha" los probes de alrededor que envian los dispositivos y extrae el ESSID del wifi que buscan. Posteriormente, se muestra por pantalla y opcionalmente se puede mostrar el fabricante de cada dispositivo. 
 
 
-# USO
-El uso es sencillo, rápido e intuitivo, usando argparse para lanzar la herramienta directamente.
+# INSTALACIÓN Y USO
+La descarga e instalación es muy fàcil:
+```
+git clone https://github.com/Samilososami/knap
+cd knap
+pip3 install -r requirements.txt
+python3 knap.py
+```
 
+
+Y el uso es sencillo, rápido e intuitivo, usa argparse para lanzar la herramienta directamente.
 ```
 python3 knap.py -i <interfaz>
 ```
