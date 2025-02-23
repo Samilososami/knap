@@ -27,7 +27,7 @@ El script "escucha" los probes de alrededor que envian los dispositivos y extrae
 
 
 # INSTALACIÓN Y USO
-La descarga e instalación es muy fàcil:
+La descarga e instalación es muy fácil:
 ```
 git clone https://github.com/Samilososami/knap
 cd knap
