@@ -45,7 +45,7 @@ La interfaz debe estar en modo monitor previamente para poder capturar paquetes.
 # MACs y fabricantes
 El script incluye un arcivo `oui.txt` con una enorme cantidad de fabricantes y sus respectivas direcciones MAC. 
 En un principio había pensado en hacer el script utlizando requests para evitar la necesidad de descargar y utilizar un archivo, pero de esta forma se pueden matar procesos conflictivos sin que afecte al funcionamiento del script.
-
+Gracias a esto se pueden mostrar los nombres de los fabricantes al lado de cada wifi en vez de visualizar únicamente la MAC.
 ```
 python3 knap.py -i <interfaz> -oui oui.txt
 ```
