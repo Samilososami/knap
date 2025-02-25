@@ -54,7 +54,7 @@ python3 knap.py -i <interfaz> -oui oui.txt
 El archivo `oui.txt` se puede descargar desde [aquí](https://standards-oui.ieee.org/oui/oui.txt)
 
 # Vectores de ataque
-Tras ejecutar el ataque y enumerar las essids que buscan los dispositivos, se puede crear un captive portal o cualquier tipo de hotspot de forma que el dispositvo que busca la red se conecte automáticamente, se puede ejecutar un ataque Man In The Middle o se puede spoofear el simplemente tratar de enumerar y comprometer el dispositivo conectado. Las posibilidades son casi ilimitadas :')
+Tras ejecutar el ataque y enumerar las essids que buscan los dispositivos, se puede crear un captive portal o cualquier tipo de hotspot de forma que el dispositvo que busca la red se conecte automáticamente, se puede ejecutar un ataque Man In The Middle o se puede simplemente tratar de enumerar y comprometer el dispositivo conectado. Las posibilidades son casi ilimitadas :')
 
 __KNOWN BEACONS:__ este ataque es, por decirlo así, la segunda parte del script. Se proporciona una lista de redes wifi, como el `essids.txt`. El ataque las crea, de forma que varios clientes de conecten irremediablemente. 
 > ⚠ El ataque solo funcionará en caso de que el dispositivo que busca las redes tenga activada la función "activar automaticamente"
