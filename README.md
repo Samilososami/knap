@@ -41,7 +41,7 @@ Y el uso es sencillo, rápido e intuitivo, usa argparse para lanzar la herramien
 ```
 python3 knap.py -i <interfaz>
 ```
-La interfaz debe estar en modo monitor previamente para poder capturar paquetes. En caso de que no lo esté el script lo avisa junto al comando que se debe ejecutar para ponerla en modo monitor.
+La interfaz debe estar en modo monitor previamente para poder capturar paquetes. En caso de que no lo esté el script lo avisa junto al comando que se debe ejecutar para ponerla en dicho modo.
 
 # MACs y fabricantes
 El script incluye un arcivo `oui.txt` con una enorme cantidad de fabricantes y sus respectivas direcciones MAC. 
